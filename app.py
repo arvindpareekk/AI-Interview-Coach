@@ -1,6 +1,8 @@
 import streamlit as st
 from openai import OpenAI
 import pdfplumber
+from utils.ai_engine import generate_questions
+from utils.resume_parser import extract_resume_text
 
 # ---------------------------
 # OpenRouter Client
